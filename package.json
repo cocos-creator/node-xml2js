@@ -1,5 +1,5 @@
 {
-  "name": "xml2js",
+  "name": "@ice/xml2js",
   "description": "Simple XML to JavaScript object converter.",
   "keywords": [
     "xml",
@@ -71,7 +71,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leonidas-from-XIV/node-xml2js.git"
+    "url": "git+https://github.com/cocos-creator/node-xml2js.git"
+  },
+  "publishConfig": {
+    "registry": "http://creator-npm.cocos.org:7001/",
+    "access": "public"
   },
   "dependencies": {
     "sax": ">=0.6.0",
